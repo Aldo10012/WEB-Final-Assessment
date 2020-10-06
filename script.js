@@ -13,7 +13,7 @@ function handleInput(){
     const fontSize = get_font_size.value    
     console.log(fontSize)
     // set the style
-    display.style.fontSize = parseInt(fontSize) 
+    display.style.fontSize = fontSize+'px' 
     // show the size
     showSize.innerHTML = fontSize   
 }
