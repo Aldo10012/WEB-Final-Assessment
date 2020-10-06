@@ -6,49 +6,41 @@
   </head>
 
   <body>
-    <section id='student-info'>
+    <section id='student-info' class='section'>
         <h1>Alberto Dominguez</h1>
         <p> My favorite color is blue and I wear Skechers</p>
     </section>
 
-    <section id='data-input"'>
-        <h1>Font Styler</h1>
-        <label>
-            Font Size
-            <input id='input-size' type='number'>
-        </label>
+    <section id='headline-display' class='section'>
+        <h1 id='dislay'>Display</h1>
+    </section>
 
-        <label>
-            Font Family
+    <section id='data-input' class='section'>
+        <h1>Font Styler</h1>
+        <label>Font Size</label>
+            <input id='input-size' type='number'>
+
+        <label>Font Family</label>
             <select id='select-font'>
                 <option>Helvetic</option>
                 <option>Arial</option>
                 <option>Times New Roman</option>
                 <option>Georgia</option>
             </select>
-        </label>
 
-        <label>
-            Font Color
+        <label>Font Color</label>
             <input id='input-color' type='color' value="#000">
-        </label>
 
-        <label>
-            Background Color
+        <label>Background Color</label>
             <input id='input-bg-color' type="color" value="#fff">
-        </label>
 
-        <label>
-            Enter Text
-            <textarea id='enter-text'>Enter here</textarea>>
-        </label>
+        <label>Enter Text</label>
+            <textarea id='enter-text'>Enter here</textarea>
     </section>
 
-    <section id='headline-display'>
-        <h1 id='dislay'></h1>
-    </section>
+    
 
-    <section id='data-output'>
+    <section id='data-output' class='section'>
         <pre><code>.headline {
             font-size:        <span id="show-size">16</span>px;
             font-family:      <span id="show-font">Times</span>;
