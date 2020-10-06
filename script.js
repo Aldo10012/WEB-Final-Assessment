@@ -9,10 +9,13 @@ const display = document.querySelector('#dislay')
 // font size
 inputSize.addEventListener('input', handleInput)
 function handleInput(){
-    const fontSize = get_font_size.value    // get the font size:
+    // get font size
+    const fontSize = get_font_size.value    
     console.log(fontSize)
-	display.style.fontSize = fontSize // Set the style  // not displaying
-    showSize.innerHTML = fontSize   // Show the size
+    // set the style
+    display.style.fontSize = parseInt(fontSize) 
+    // show the size
+    showSize.innerHTML = fontSize   
 }
 
 // font family
